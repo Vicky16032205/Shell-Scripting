@@ -227,3 +227,19 @@ Hello World!
 
 
 
+
+
+
+
+**To get all the values present in the array we can use command  ==>    echo "${arr\[\*]}"   // if printing all values of the array**
+
+**to get the length of the array ==>                                    echo "${#arr\[\*]}"  // this will print the length of the array.**
+
+
+
+
+
+**To get specific values of array ==>                                   echo "${arr\[\*]:1}"**
+
+**To get specific values of array ==>                                   echo "${arr\[\*]:1:2}"  // 1 is the index from where we have to start and 2 is the no of value we require after index 1.**
+
