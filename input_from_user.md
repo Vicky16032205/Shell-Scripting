@@ -10,17 +10,29 @@ we can do this using the **read Enter your user name here:**
 
 
 
-Example: 
+Example:
 
-&nbsp;		**read name**
+ 		**read name**
 
-		**echo "Your name is $name"**
+ 	\*\*echo "Your name is $name"\*\*
+
+
 
 **Output:**
 
-		**Vicky 				//input given by user**
+ 	\*\*Vicky 				//input given by user\*\*
 
-		**Your name is Vicky**
+&nbsp;	\\\*\\\*Your name is Vicky\\\*\\\*
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,11 +42,11 @@ Make it more user interactable, do it using **-p** command along with the **read
 
 Example:
 
-&nbsp;		read -p "Enter your name : " name
+ 		read -p "Enter your name : " name
 
-&nbsp;		echo "User name is $name"
+ 		echo "User name is $name"
 
 OUTPUT:
 
-&nbsp;		User name is Vicky Kumar Gupta
+ 		User name is Vicky Kumar Gupta
 
