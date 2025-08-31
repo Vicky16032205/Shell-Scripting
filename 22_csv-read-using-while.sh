@@ -1,12 +1,24 @@
 #!/bin/bash
 
 
-while IFS="," read id name age
+while IFS="," read id name age          //  IFS stands for Internal File Separator
 do
         echo "ID is $id"
         echo "Name is $name"
         echo "Age is $age"
 done < test.csv
+
+				OR
+
+
+cat test.csv | awk '!NR=1 {print}' | while IFS="," read id name age
+do
+        echo "ID is $id"
+        echo "Name is $name"
+        echo "Age is $age"
+done
+
+// THE ABOVE COMMAND WILL HELP TO NOT READ THE FIRST ROW OF THE CSV FILE, which contains the headings of the data present just as in our case it was Roll_No, Student_Name, Age.
 
 
 OUTPUT:
